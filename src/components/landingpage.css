@@ -1,0 +1,63 @@
+.hero-image {
+    position: relative;
+    height: 65vh; /* Set height to 65% */
+    width: 100%; /* Full width */
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%; /* Full width image */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the area */
+}
+
+.logo {
+    position: absolute;
+    top: 30px; /* Adjust as necessary */
+    left: 50px; /* Adjust as necessary */
+    z-index: 2; /* Ensure logo is above the image */
+    max-width: 150px; /* Adjust the size of the logo */
+}
+
+.right-image {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 150px; /* Adjust as necessary */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    z-index: 2; /* Ensure image is above the hero image */
+    max-width: 60%; /* Adjust the size of the right image */
+}
+
+.button-section {
+    text-align: center; /* Center the buttons */
+    height: large;
+}
+
+.left-side {
+    /* Example styles */
+     /* Add padding */
+    padding-top: -5%;
+    
+  
+    border-radius: 8px; /* Optional border radius */
+}
+
+.footer {
+    background-color: #132435;
+    text-align: center; 
+    padding: 1.3rem 0; 
+    margin-top: 20px; 
+}
+
+.footer-text {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
